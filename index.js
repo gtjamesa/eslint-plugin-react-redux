@@ -9,6 +9,7 @@ const rules = {
   'mapStateToProps-prefer-parameters-names': require('./lib/rules/mapStateToProps-prefer-parameters-names'),
   'mapStateToProps-prefer-selectors': require('./lib/rules/mapStateToProps-prefer-selectors'),
   'useSelector-prefer-selectors': require('./lib/rules/useSelector-prefer-selectors'),
+  'useDispatch-prefer-typed': require('./lib/rules/useDispatch-prefer-typed'),
   'no-unused-prop-types': require('./lib/rules/no-unused-prop-types'),
   'prefer-separate-component-file': require('./lib/rules/prefer-separate-component-file'),
 };
@@ -41,6 +42,7 @@ module.exports = {
         'react-redux/useSelector-prefer-selectors': 2,
         'react-redux/no-unused-prop-types': 2,
         'react-redux/prefer-separate-component-file': 1,
+        'react-redux/useDispatch-prefer-typed': 0,
       },
     },
     all: {
